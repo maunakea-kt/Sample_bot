@@ -14,7 +14,8 @@ module.exports = class HandlePizzaOrder {
                         text: "ご注文のピザはお決まりでしょうか？",
                         actions: [
                             {type:"postback",label:"マルゲリータ",data:"マルゲリータ"},
-                            {type:"postback",label:"マリナーラ",data:"マリナーラ"}
+                            {type:"postback",label:"マリナーラ",data:"マリナーラ"},
+                            {type:"postback",label:"ビスマルク",data:"ビスマルク"}
                         ]
                     }
                 }
